@@ -30,7 +30,7 @@ _1. Descargar o clonar el repositorio_
 
 ```
 $ cd <nombre-de-tu-directorio>
-$ git clone https://github.com/rluders/oc-theme-angular.git
+$ git clone https://github.com/Alejooc/NEOX.git
 ```
 
 _2. Descargar dependencias _
