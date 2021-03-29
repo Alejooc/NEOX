@@ -1,1 +1,146 @@
 /* You can add global styles to this file, and also import other style files */
+@import "styles/colors";
+@import "styles/animations";
+@import "styles/theme";
+
+body{
+    background: var(--toolbar-color)!important;
+}
+.boxes{
+    /* background-color: #ffff!important; */
+    border-radius: 6px;
+    box-shadow: rgb(199, 199, 199);
+    cursor: pointer;
+    margin-bottom: 23px;
+}
+.content{
+    margin-top: 13px;
+   
+}
+.modules{
+    margin-bottom: 90px;
+}
+.soundimages{
+    border-radius: 5px;
+}
+.soundimages:hover{
+    opacity: 0.8;
+}
+.songinfo{
+    display: block;
+    margin-top: 5px;
+    color:var(--titles-color);
+}
+.titles{
+    margin-bottom: 25px;
+    color:var(--titles-color);
+}
+.player{
+    background-color:var(--player-background);
+    color: var(--player-color) ;
+    padding: 18px;
+}
+.iconsplayer{
+    font-size: 23px;
+}
+.playermb{
+    padding: 0;
+    margin: 0;
+    color: var(--player-color) ;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
+.playerbtn:hover{
+    background-color: rgba(168, 168, 168, 0.267);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.titlegender{
+    position:absolute;
+    right: auto;
+    left: 15%;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: 22px;
+}
+.covergender{
+    position: relative!important;
+    border-radius: 4px;
+}
+.cardgender{
+    position: relative!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-content: center!important;
+    flex-direction: column!important;
+}
+.cardgender:hover{
+    opacity: 0.8;
+}
+.cardartista{
+    border-radius: 50%;
+}
+.cardartista:hover{
+    opacity: 0.8;
+}
+.titleartista{
+    text-align: center!important;
+    display: block;
+    margin-top: 7px;
+    color:var(--titles-color);
+}
+.search input{
+    border: none;
+    font-size: 17px;
+    background: none;
+}
+.search input:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    background: #eee;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.search span{
+    background: none;
+    border: none;
+}
+.search{
+    background: #eee;
+    border-radius: 20px;
+}
+.iconsearch{
+    color: rgb(134, 134, 134);
+    font-size: 21px;
+}
+.shadows{
+    box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+}
+.songartista {
+    display: block;
+    font-size: 14px;
+    color: rgba(129, 129, 129, 0.933);
+    text-decoration: none;
+}
+.songartista a{
+    text-decoration: none;
+    color: rgba(129, 129, 129, 0.933);
+}
+.songartista a:hover{
+    text-decoration: underline;
+}
+.AngleDown{
+    font-size: 25px;
+}
+.more{
+    color: rgba(119, 119, 119, 0.933);
+    text-decoration: none;
+    font-weight: 400;
+}
+.more:hover{
+    color: #2c3e50!important;
+}
+
+

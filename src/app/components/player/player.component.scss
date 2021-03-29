@@ -1,0 +1,43 @@
+.offcanvas-end{
+    border: none;
+    background: var(--player-background);
+    color: var(--player-color);
+}
+.btn-close{
+    opacity:1!important;
+}
+.cierrebtn{
+    color: var(--player-color)!important;
+    font-size: 28px;
+    background: none;
+}
+
+.imgplayer{
+    width: 85%!important;
+    border-radius: 10px;
+    
+}
+.playercontrols{
+    margin-top: 50px!important;
+}
+.nameartista{
+    color:rgba(165, 165, 165, 0.933);
+    display: block;
+    
+}
+.namesongplayer{
+    display: block;
+    font-weight: 600;
+}
+.repo-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-size: 28px;
+    z-index: -1000;
+/*     background: rgba(255, 255, 255, 0) url('/assets/img/angle-up-solid.svg') no-repeat center;
+ */ }

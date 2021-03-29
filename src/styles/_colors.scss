@@ -1,0 +1,40 @@
+$accent-color: #FF0000;
+$accent-color-dark: #0000FF;
+
+$toolbar-color: #FFFFFF;
+$toolbar-color-dark: #232323;
+
+
+$toolbar-text-color: $toolbar-color-dark;
+$toolbar-text-color-dark: $toolbar-color;
+
+$card-background: #fafafa;
+$card-background-dark: #494949;
+$card-border: #eee;
+$card-border-dark: #5c5c5c;
+
+$titles-color: #232323;
+$titles-color-dark: #EEEEEE;
+
+$navbar-background:#FFFFFF;
+$navbar-background-dark:#272727;
+$navbar-color: #232323;
+$navbar-color-dark:#FFFFFF;
+
+$player-background:#FFFFFF;
+$player-background-dark:#272727;
+$player-color: #232323;
+$player-color-dark:#FFFFFF;
+
+$colors: (
+  --accent-color: ($accent-color, $accent-color-dark),
+  --titles-color: ($titles-color, $titles-color-dark),
+  --navbar-background:($navbar-background,$navbar-background-dark),
+  --navbar-text:($navbar-color,$navbar-color-dark),
+  --player-background:($player-background,$player-background-dark),
+  --player-color:($player-color,$player-color-dark),
+  --toolbar-color: ($toolbar-color, $toolbar-color-dark),
+  --toolbar-text-color: ($toolbar-text-color, $toolbar-text-color-dark),
+  --card-background: ($card-background, $card-background-dark),
+  --card-border: ($card-border, $card-border-dark)
+)

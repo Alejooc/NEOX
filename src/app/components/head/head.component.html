@@ -1,0 +1,80 @@
+<nav class="navbar navbar-expand-sm  sticky-top" [ngClass]="{'navbar-dark': theme === true,'navbar-light':theme === false}">
+    <div class="container-fluid">
+      <div class="logoa px-0 mx-0">
+        <a class="navbar-brand" [routerLink]="['/']">
+          <img src="assets/img/logo.png" class="img-fluid logo" alt="">
+        </a>
+      </div>
+     
+      <button class="navbar-toggler btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#menumb" aria-controls="offcanvasWithBothOptions">
+        
+        <span class="navbar-toggler-icon" role="button"  data-bs-toggle="offcanvas" data-bs-target="#menumb" aria-controls="offcanvasWithBothOptions">
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+        </ul>
+        <form class="d-flex">
+          <div class="search">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1"><fa-icon [icon]="faSearch" class="iconsearch"></fa-icon></span>
+              <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar..." aria-describedby="basic-addon1">
+            </div>
+          </div>
+          
+
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+        <button class=" btn" type="button" data-bs-toggle="offcanvas"  data-bs-target="#menumb" aria-controls="offcanvasWithBothOptions">
+        
+          <span class="navbar-toggler-icon" role="button"  data-bs-toggle="offcanvas" data-bs-target="#menumb" aria-controls="offcanvasWithBothOptions">
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" data-bs-backdrop="false" id="menumb" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="alert coveralert" role="alert">
+          A simple primary alert—check it out!
+        </div>
+        <ul class="nav flex-column">
+          <li class="nav-item " >
+            <a class="nav-link" [routerLinkActive]="['active']" aria-current="page" [routerLinkActiveOptions]="{exact:
+              true}" [routerLink]="['/']">
+              
+              <fa-icon [icon]="faMusic" class="iconmenu"></fa-icon>
+              Música
+            </a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['explore']">
+              <fa-icon [icon]="faGlobe"  class="iconmenu"></fa-icon>
+              Explorar
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['artists']">Artistas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="toggleTheme()">
+              <div class="form-check form-switch">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" [checked]="theme">
+              </div>
+            </a>
+            
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+  

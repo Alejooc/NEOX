@@ -1,0 +1,141 @@
+ <!--PLAYER -->
+ <div class="shadow player fixed-bottom">
+    <div class="row">
+        <div class="col-3 col-md-2 col-lg-2">
+            <div class="d-inline-flex">
+                <div class="p-1 playerbtn d-none d-sm-none d-md-block">
+                    <span class="px-2 py-1">
+                        <fa-icon [icon]="faStepBackward" class="iconsplayer "></fa-icon>
+                    </span>
+                    
+                </div>
+                <div class="p-1 playerbtn">
+                    <span class="px-2 py-1">
+                        <fa-icon [icon]="faPlay" class="iconsplayer"></fa-icon>
+                    </span>
+                </div>
+                <div class="p-1 playerbtn">
+                    <span class="px-2 py-1">
+                        <fa-icon [icon]="faStepForward" class="iconsplayer"></fa-icon>
+                    </span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-7 col-lg-7 col-md-7 text-center">
+            <div class="d-inline-flex">
+                <div class="p-1">
+                    <span class="px-2 py-1 align-middle ">
+                        <span class="h6 align-middle">Nombre de la cancion</span>
+                    </span>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-2 d-block d-sm-block d-md-none text-center">
+            <div class="d-inline-flex">
+                <div class="p-1" role="button"  data-bs-toggle="offcanvas" data-bs-target="#playermb" aria-controls="offcanvasRightOptions">
+                    <!-- <span class="px-2 py-1">
+                        <button class="btn navbar-toggler" type="button" data-bs-toggle="offcanvas"  data-bs-target="#playermb" aria-controls="offcanvasRightOptions">
+                            <span class="repo-toggler-icon" role="button"  data-bs-toggle="offcanvas" data-bs-target="#playermb" aria-controls="offcanvasRightOptions">
+                            </span>
+                        </button>
+                    </span> -->
+                    
+                    
+                        <fa-icon [icon]="faAngleUp"  class="iconsplayer playermb repo-toggler-icon"  role="button"  data-bs-toggle="offcanvas" data-bs-target="#playermb" aria-controls="offcanvasRightOptions"></fa-icon> 
+                   
+                     
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3  col-md-3 d-none d-sm-none d-md-block">
+            <div class="d-inline-flex">
+                <div class="p-1 playerbtn">
+                    <span class="px-2 py-1">
+                        <fa-icon [icon]="faRandom" class="iconsplayer"></fa-icon>
+                    </span>
+                    
+                </div>
+                <div class="p-1 playerbtn">
+                    <span class="px-2 py-1">
+                        <fa-icon [icon]="faVolumeUp" class="iconsplayer"></fa-icon>
+                    </span>
+                    
+                </div>
+                <div class="p-1 playerbtn">
+                    <span class="px-2 py-1">
+                        <fa-icon [icon]="faRedo" class="iconsplayer"></fa-icon>
+                    </span>
+                    
+                </div>
+                
+               
+            </div>
+        </div>
+        
+    </div>
+   
+</div>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="playermb" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Reproductor</h5>
+      <button type="button" class="btn-close cierrebtn px-2 py-0" data-bs-dismiss="offcanvas" aria-label="Close">
+        <fa-icon [icon]="faAngleDown"></fa-icon>
+      </button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="col-12">
+          <img class="img-fluid d-block mx-auto imgplayer shadows" src="https://e-cdns-images.dzcdn.net/images/cover/a452975ef997cdd4837888e8eb5a3125/720x720-000000-80-0-0.jpg" alt="">
+      </div>
+      <div class="row playercontrols">
+        <div class="col-3 text-start">
+            <fa-icon [icon]="faPlus" class="iconsplayer"></fa-icon>
+        </div>
+        <div class="col-6 text-center">
+           <span class="namesongplayer">Name cancion</span> 
+           <span class="nameartista">Name artista</span>  
+        </div>
+        <div class="col-3 text-end">
+            <fa-icon [icon]="faShareAlt" class="iconsplayer"></fa-icon>
+        </div>
+      </div>
+      <div class="col-12 playercontrols">
+          tiempo...
+      </div>
+      <div class="col-12 playercontrols text-center">
+        <div class="d-flex">
+            <div class="p-1 playerbtn flex-fill">
+                <span class="px-2 py-1">
+                    <fa-icon [icon]="faRandom" class="iconsplayer"></fa-icon>
+                </span>
+                
+            </div>
+            <div class="p-1 playerbtn flex-fill">
+                <span class="px-2 py-1">
+                    <fa-icon [icon]="faStepBackward" class="iconsplayer "></fa-icon>
+                </span>
+                
+            </div>
+            <div class="p-1 playerbtn flex-fill">
+                <span class="px-2 py-1">
+                    <fa-icon [icon]="faPlay" class="iconsplayer"></fa-icon>
+                </span>
+            </div>
+            <div class="p-1 playerbtn flex-fill">
+                <span class="px-2 py-1">
+                    <fa-icon [icon]="faStepForward" class="iconsplayer"></fa-icon>
+                </span>
+                
+            </div>
+            <div class="p-1 playerbtn flex-fill">
+                <span class="px-2 py-1">
+                    <fa-icon [icon]="faRedo" class="iconsplayer"></fa-icon>
+                </span>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,27 +1,63 @@
-# Playm
+# NEOX 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+_Template Angular Music App_
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Pre-requisitos 📋
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+_Herramientas necesarias para instalar el proyecto y como instalarlas_
 
-## Running unit tests
+_Node_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+- Descargar node en su version recomendada --> https://nodejs.org/es/download/
+seguir los pasos de instalacion por defecto.
+```
+_Angular CLI_
 
-## Running end-to-end tests
+```
+- Abrir una terminal de comando y ejecutar el comando ' npm install -g @angular/cli '.
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Instalación 🔧
 
-## Further help
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+_1. Descargar o clonar el repositorio_
+
+```
+$ cd <nombre-de-tu-directorio>
+$ git clone https://github.com/rluders/oc-theme-angular.git
+```
+
+_2. Descargar dependencias _
+
+```
+Para descargar las dependencias angulares puede usar:
+
+ yarn install o npm install
+
+Si tiene algún problema o pregunta, no dude en pedir ayuda.
+```
+
+## Construido con 🛠️
+
+* [Angular](https://angular.io/cli) - Framework web.
+* [Node](https://nodejs.org/es/) - Entorno de ejecución.
+
+
+## Autores ✒️
+
+* **Alejandro Osorio** - *Trabajo Inicial* - [Alejo](https://github.com/Alejooc) 
+
+## Licencia 📄
+
+MIT
+
+---
+⌨️ con ❤️ por [Alejo](https://github.com/Alejooc) 😊
